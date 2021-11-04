@@ -1,0 +1,208 @@
+a{
+    text-decoration: none;
+}
+.full-wraper{
+    width: 100%;
+    clear: both;
+}
+.wraper{
+    width: 1100px;
+    margin: 0 auto;
+}
+.logo img{
+    width: 140px;
+    padding: 10px 0;
+    float: left;
+}
+.manu{
+    float: left;
+    width: 800px;
+    text-align: right;
+    margin-top: 15px;
+}
+.manu a{
+    color: #090df5;
+    padding: 10px;
+    font-size: 24px;
+
+}
+.reg {
+    float: right;
+    width: 200px;
+    text-align: right;
+    margin-top: 15px;
+}
+.reg a{
+    color: #090df5;
+    padding: 10px;
+    font-size: 24px;
+}
+.position-page{
+    float: left;
+    width: 200px;
+    text-align: left;
+    margin-top: 15px;
+}
+.position-page a{
+    color: blue;
+    padding: 10px;
+    font-size: 24px;
+}
+    
+
+/*=====================BANNER ===================*/
+.banner-img{
+    background-image: url(../image/banner-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+}
+.banner-text{
+    text-align: center;
+}
+.banner-text h1,p{
+    color:rgb(10, 7, 14);
+    font-size: 20px;
+}
+.banner-text p{
+    color:rgb(34, 212, 93);
+}
+/*==================Service ================*/
+.service-item{
+    width: 350px;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 0;
+    border: 1px solid #777;
+    margin-left: 10px;
+}
+.service-item{
+    display: inline-block;
+}
+
+
+/*=====Sign Up=====*/
+.main-div{
+    background-image: url(../image/img-signup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 0;
+}
+.main-div-in{
+    background-image: url(../image/img-signup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 250px 0;
+}
+.table{
+    margin: 0 auto;
+}
+.h1{
+    color: white;
+    text-align: center;
+}
+.table{
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.table tr td input{
+    color: #090df5;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid #777;
+}
+.table tr td button{
+    height: 35px;
+    background: transparent;
+    width: 85px;
+    border: none;
+    border: 2px solid;
+    font-weight: 500;
+    color: turquoise;
+    transition: .4s;
+}
+.table tr td button:hover{
+    background: rgb(240, 235, 235);
+    color: tomato;
+
+}
+/*========= Position ============*/
+.position-main{
+    width: 800px;
+    height: 600px;
+    background: #777;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+}
+.one{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    float: left;
+    height: 200px;
+    width: 200px;
+    background: red;
+    padding: 5px;
+}
+.two{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    float: left;
+    height: 200px;
+    width: 200px;
+    background: yellowgreen;
+    padding: 5px;
+}
+.three{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    float: left;
+    height: 200px;
+    width: 200px;
+    background: yellow;
+    padding: 5px;
+}
+.four{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    float: left;
+    height: 200px;
+    width: 200px;
+    background: green;
+    padding: 5px;
+}
+.flag{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    float: left;
+    height: 300px;
+    width: 300px;
+    background: green;
+    padding: 5px; 
+}
+.mid-color{
+    position: relative;
+    left: 150px;
+    top: 150px;
+    transform: translate(-50%, -50%);
+    background: red;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+/*============ Tasting Page ===============*/
+.table{
+    margin: 0 auto;
+}
